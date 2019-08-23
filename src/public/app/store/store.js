@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import InsideModule from "./module/inside-module_store";
+import Inner from "./module/inner-module_store";
+import { INNER } from "./modules_enum";
 
 Vue.use(Vuex);
 
@@ -19,6 +20,6 @@ export default new Vuex.Store({
     mutations,
     state: new State(),
     modules: {
-        insideModule: InsideModule
+        [INNER]: Inner
     }
 });

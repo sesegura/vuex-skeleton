@@ -1,4 +1,4 @@
-import { INSIDE_MODULE } from "../modules_enum";
+import { INNER } from "../modules_enum";
 
 const actions = {};
 const getters = {};
@@ -12,7 +12,7 @@ const State = function() {
 
 export default {
     namespaced: true,
-    name: INSIDE_MODULE,
+    name: INNER,
     actions,
     getters,
     mutations,
