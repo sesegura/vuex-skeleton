@@ -1,4 +1,2 @@
-export default {
-    APP: "app",
-    INNER: "inner"
-};
+export const APP = "app";
+export const INNER = "inner";
